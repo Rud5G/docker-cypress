@@ -1,16 +1,18 @@
 {
   "name": "e2e",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Cypress tests",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com> (https://glebbahmutov.com/)",
+  "author": "Rudger Gravestein <r.gravestein@triple-networks.com> (https://triple-networks.com/)",
   "license": "ISC",
   "private": true,
   "devDependencies": {
     "cypress": "3.1.4"
+  },
+  "dependencies": {
+    "wait-on": "3.2.0"
   }
 }
