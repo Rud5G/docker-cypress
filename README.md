@@ -1,9 +1,17 @@
 # docker-cypress
 ----------------
 
-## See
+[![Build Status](https://travis-ci.com/Rud5G/docker-cypress.svg?branch=master)](https://travis-ci.com/Rud5G/docker-cypress)
 
-    https://github.com/cypress-io/cypress-docker-images
+## Usage
+
+    docker pull dkrud5g/docker-cypress:latest
+    
+set environment vars:
+
+    - CYPRESS_baseUrl
+    - CYPRESS_PROJECT_ID
+    - CYPRESS_RECORD_KEY
 
 
 ## How to build & push
@@ -12,3 +20,7 @@
 
     docker push dkrud5g/docker-cypress:latest
 
+
+### See
+
+    https://github.com/cypress-io/cypress-docker-images
