@@ -15,7 +15,7 @@ script:
   - docker build -t dkrud5g/docker-cypress:latest .
 
 after_success:
-  - if [[ "$TRAVIS_BRANCH" == "master" ]]; then
+  - if [[ "$TRAVIS_BRANCH" == "main" ]]; then
       docker login -u $dockerhub_username -p $dockerhub_password ;
       docker push dkrud5g/docker-cypress ;
     fi

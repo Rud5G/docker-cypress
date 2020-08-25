@@ -1,7 +1,7 @@
 # docker-cypress
 ----------------
 
-[![Build Status](https://travis-ci.com/Rud5G/docker-cypress.svg?branch=master)](https://travis-ci.com/Rud5G/docker-cypress)
+[![Build Status](https://travis-ci.com/Rud5G/docker-cypress.svg?branch=main)](https://travis-ci.com/Rud5G/docker-cypress)
 
 ## Usage
 
